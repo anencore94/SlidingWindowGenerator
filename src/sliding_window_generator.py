@@ -2,7 +2,7 @@ import numpy as np
 import tensorflow as tf
 
 
-class WindowGenerator:
+class SlidingWindowGenerator:
     def __init__(self, input_width, label_width, shift,
                  train_df, val_df, test_df,
                  label_columns=None):
