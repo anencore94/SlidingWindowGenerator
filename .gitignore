@@ -1,2 +1,7 @@
 .idea/
 *.py[co]
+
+
+dist/
+build/
+slidingwindow_generator.egg-info/
