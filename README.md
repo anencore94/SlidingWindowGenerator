@@ -5,4 +5,23 @@
     - to use as input in RNN based layer
 - This module was based on [tensorflow official docs](https://www.tensorflow.org/tutorials/structured_data/time_series#data_windowing), just aggregate some functions and add small tuning to use it more efficiently.
     - to make it possible to control batch_size, sequence_stride_size and shuffle more freely.
-- Module is in `./src/sliding_window_generator.py` and the example of how to use it is in `./src/example.ipynb`
+
+# QuickStart
+
+### 1) Install this module with pip 
+
+```shell
+pip install slidingwindw_generator
+```
+
+### 2) How to Import
+
+```
+from slidingwindow_generator.slidingwindow_generator import SlidingWindowGenerator
+
+SlidingWindowGenerator(...)
+```
+
+### 3) Detailed Example
+
+- you can see detailed example with real data and RNN in `./tests/example.ipynb`
