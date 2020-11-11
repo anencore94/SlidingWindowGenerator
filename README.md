@@ -11,7 +11,7 @@
 ### 1) Install this module with pip 
 
 ```shell
-pip install slidingwindw_generator
+pip install slidingwindow_generator
 ```
 
 ### 2) How to Import
